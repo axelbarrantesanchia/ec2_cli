@@ -1,0 +1,17 @@
+pyproject.toml
+ec2_cli/__init__.py
+ec2_cli/main.py
+ec2_cli.egg-info/PKG-INFO
+ec2_cli.egg-info/SOURCES.txt
+ec2_cli.egg-info/dependency_links.txt
+ec2_cli.egg-info/entry_points.txt
+ec2_cli.egg-info/requires.txt
+ec2_cli.egg-info/top_level.txt
+ec2_cli/aws/session.py
+ec2_cli/cli/create_instances.py
+ec2_cli/cli/delete_instances.py
+ec2_cli/cli/list_instances.py
+ec2_cli/cli/menu.py
+ec2_cli/services/ami_service.py
+ec2_cli/services/ec2_service.py
+ec2_cli/utils/validators.py

@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: ec2-cli
+Version: 0.1.0
+Summary: Interactive CLI for managing EC2 instances
+Author: Axel Barrantes Anchia
+Requires-Dist: boto3
