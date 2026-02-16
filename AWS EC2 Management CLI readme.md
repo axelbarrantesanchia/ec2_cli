@@ -3,7 +3,7 @@ This repository documents a production-inspired, interactive command-line
 <!-- -------------------------------------------------- -->
 tool built with **boto3**. It allows users to manage AWS EC2 instances using named profiles and dynamic region selection. The goal is to create a tool that prioritizes clarity, predictability, and safe infrastructure operations over simple abstraction.
 <!-- -------------------------------------------------- -->
-![Paso 1](ec2-cli/cli-diagram.png)
+![CLI Diagram](ec2-cli/cli-diagram.png)
 <!-- -------------------------------------------------- -->
 ![Main Interface](ec2-cli/main-interface.jpg)
 <!-- -------------------------------------------------- -->
@@ -134,7 +134,7 @@ source .venv/bin/activate
 ```
 <!-- -------------------------------------------------- -->
 Finally, install the project in editable mode:
-```
+
 ```bash
 pip install -e .
 ```
@@ -152,13 +152,23 @@ Typical Workflow:
 <!-- -------------------------------------------------- -->
 Select your AWS Profile.
 <!-- -------------------------------------------------- -->
+![Paso 1](ec2-cli/select_profile.png)
+<!-- -------------------------------------------------- -->
 Select the AWS Region.
+<!-- -------------------------------------------------- -->
+![Paso 2](ec2-cli/select_region.png)
 <!-- -------------------------------------------------- -->
 Review the existing EC2 instances table.
 <!-- -------------------------------------------------- -->
+![Paso 3](ec2-cli/list_instances.png)
+<!-- -------------------------------------------------- -->
 Create: Launch a new instance with specific tags.
 <!-- -------------------------------------------------- -->
+![Paso 4](ec2-cli/create_instances.png)
+<!-- -------------------------------------------------- -->
 Terminate: Select instances by ID or Tag (Validated + Confirmed).
+<!-- -------------------------------------------------- -->
+![Paso 5](ec2-cli/delete_instances.png)
 <!-- -------------------------------------------------- -->
 ⸻
 <!-- -------------------------------------------------- -->
@@ -184,3 +194,4 @@ Structured error handling and retries.
 <!-- -------------------------------------------------- -->
 Support for additional AWS services.
 <!-- -------------------------------------------------- -->
+
