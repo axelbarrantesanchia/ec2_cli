@@ -164,6 +164,7 @@ Select the AWS Region.
 Create: Launch a new instance with specific tags.
 <!-- -------------------------------------------------- -->
 ![Paso 4](ec2_cli_images/create_instances.png)
+---
 ![Paso 5](ec2_cli_images/create_instances_2.png)
 <!-- -------------------------------------------------- -->
 Review the existing EC2 instances table.
@@ -173,13 +174,17 @@ Review the existing EC2 instances table.
 Terminate: Select instances by ID 
 <!-- -------------------------------------------------- -->
 ![Paso 7](ec2_cli_images/delete_by_id.png)
+---
 ![Paso 8](ec2_cli_images/delete_by_id_2.png)
+---
 ![Paso 9](ec2_cli_images/delete_by_id_3.png)
 <!-- -------------------------------------------------- -->
 or Tag (Validated + Confirmed).
 <!-- -------------------------------------------------- -->
 ![Paso 10](ec2_cli_images/delete_by_tag_.png)
+---
 ![Paso 11](ec2_cli_images/delete_by_tag_2.png)
+---
 ![Paso 12](ec2_cli_images/delete_by_tag_3.png)
 <!-- -------------------------------------------------- -->
 ⸻
@@ -214,5 +219,6 @@ Scope limited to EC2 standard instances.
 <!-- -------------------------------------------------- -->
 - Improved visual feedback and CLI formatting.
 <!-- -------------------------------------------------- -->
+
 
 
