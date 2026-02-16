@@ -151,6 +151,7 @@ ec2-cli
 Typical Workflow:
 <!-- -------------------------------------------------- -->
 Menu:
+<!-- -------------------------------------------------- -->
 ![Paso 1](ec2_cli_images/menu.png)
 <!-- -------------------------------------------------- -->
 Select your AWS Profile.
@@ -163,7 +164,7 @@ Select the AWS Region.
 <!-- -------------------------------------------------- -->
 Create: Launch a new instance with specific tags.
 <!-- -------------------------------------------------- -->
-![Paso 4](ec2_cli_images/create_instances.png)
+![Paso 4](ec2_cli_images/create_instance.png)
 <!-- -------------------------------------------------- -->
 Review the existing EC2 instances table.
 <!-- -------------------------------------------------- -->
@@ -179,7 +180,7 @@ Terminate: Select instances by ID
 <!-- -------------------------------------------------- -->
 or Tag (Validated + Confirmed).
 <!-- -------------------------------------------------- -->
-![Paso 10](ec2_cli_images/delete_by_tag_.png)
+![Paso 10](ec2_cli_images/delete_by_tag.png)
 ---
 ![Paso 11](ec2_cli_images/delete_by_tag_2.png)
 ---
