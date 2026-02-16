@@ -1,6 +1,6 @@
 # Create_instances flow
 from botocore.exceptions import ClientError
-from ec2_cli.cli import create_instances
+from ec2_cli.services.ec2_service import create_instances
 
 
 def valid_instance(ec2):
