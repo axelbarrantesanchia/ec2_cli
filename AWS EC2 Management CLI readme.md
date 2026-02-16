@@ -164,8 +164,6 @@ Select the AWS Region.
 Create: Launch a new instance with specific tags.
 <!-- -------------------------------------------------- -->
 ![Paso 4](ec2_cli_images/create_instances.png)
----
-![Paso 5](ec2_cli_images/create_instances_2.png)
 <!-- -------------------------------------------------- -->
 Review the existing EC2 instances table.
 <!-- -------------------------------------------------- -->
@@ -186,6 +184,8 @@ or Tag (Validated + Confirmed).
 ![Paso 11](ec2_cli_images/delete_by_tag_2.png)
 ---
 ![Paso 12](ec2_cli_images/delete_by_tag_3.png)
+---
+![Paso 13](ec2_cli_images/delete_by_tag_4.png)
 <!-- -------------------------------------------------- -->
 ⸻
 <!-- -------------------------------------------------- -->
