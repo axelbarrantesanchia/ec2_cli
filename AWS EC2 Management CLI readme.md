@@ -3,9 +3,9 @@ This repository documents a production-inspired, interactive command-line
 <!-- -------------------------------------------------- -->
 tool built with **boto3**. It allows users to manage AWS EC2 instances using named profiles and dynamic region selection. The goal is to create a tool that prioritizes clarity, predictability, and safe infrastructure operations over simple abstraction.
 <!-- -------------------------------------------------- -->
-![CLI Diagram](ec2_cli_images/cli-diagram.png)
+![CLI Diagram](ec2_cli_images/ec2_cli.png)
 <!-- -------------------------------------------------- -->
-![Main Interface](ec2-cli/main-interface.jpg)
+![Main Interface](ec2_cli_images/main-interface.png)
 <!-- -------------------------------------------------- -->
 ⚙ Tech Stack
 <!-- -------------------------------------------------- -->
@@ -150,25 +150,37 @@ ec2-cli
 <!-- -------------------------------------------------- -->
 Typical Workflow:
 <!-- -------------------------------------------------- -->
+Menu:
+![Paso 1](ec2_cli_images/menu.png)
+<!-- -------------------------------------------------- -->
 Select your AWS Profile.
 <!-- -------------------------------------------------- -->
-![Paso 1](ec2-cli/select_profile.png)
+![Paso 2](ec2_cli_images/choose_profile.png)
 <!-- -------------------------------------------------- -->
 Select the AWS Region.
 <!-- -------------------------------------------------- -->
-![Paso 2](ec2-cli/select_region.png)
-<!-- -------------------------------------------------- -->
-Review the existing EC2 instances table.
-<!-- -------------------------------------------------- -->
-![Paso 3](ec2-cli/list_instances.png)
+![Paso 3](ec2_cli_images/choose_region.png)
 <!-- -------------------------------------------------- -->
 Create: Launch a new instance with specific tags.
 <!-- -------------------------------------------------- -->
-![Paso 4](ec2-cli/create_instances.png)
+![Paso 4](ec2_cli_images/create_instances.png)
+![Paso 5](ec2_cli_images/create_instances_2.png)
 <!-- -------------------------------------------------- -->
-Terminate: Select instances by ID or Tag (Validated + Confirmed).
+Review the existing EC2 instances table.
 <!-- -------------------------------------------------- -->
-![Paso 5](ec2-cli/delete_instances.png)
+![Paso 6](ec2_cli_images/list_instances.png)
+<!-- -------------------------------------------------- -->
+Terminate: Select instances by ID 
+<!-- -------------------------------------------------- -->
+![Paso 7](ec2_cli_images/delete_by_id.png)
+![Paso 8](ec2_cli_images/delete_by_id_2.png)
+![Paso 9](ec2_cli_images/delete_by_id_3.png)
+<!-- -------------------------------------------------- -->
+or Tag (Validated + Confirmed).
+<!-- -------------------------------------------------- -->
+![Paso 10](ec2_cli_images/delete_by_tag_.png)
+![Paso 11](ec2_cli_images/delete_by_tag_2.png)
+![Paso 12](ec2_cli_images/delete_by_tag_3.png)
 <!-- -------------------------------------------------- -->
 ⸻
 <!-- -------------------------------------------------- -->
@@ -184,15 +196,23 @@ Scope limited to EC2 standard instances.
 <!-- -------------------------------------------------- -->
 ## Planned Improvements (v2+)
 <!-- -------------------------------------------------- -->
-Argument-based execution (non-interactive mode).
+- Argument-based execution (non-interactive mode).
 <!-- -------------------------------------------------- -->
-Logging system integration.
+- Logging system integration.
 <!-- -------------------------------------------------- -->
-Unit and integration tests.
+- Unit and integration tests.
 <!-- -------------------------------------------------- -->
-Structured error handling and retries.
+- Structured error handling and retries.
 <!-- -------------------------------------------------- -->
-Support for additional AWS services.
+- Support for additional AWS services.
+<!-- -------------------------------------------------- -->
+- UX refinements and menu improvements.
+<!-- -------------------------------------------------- -->
+- Internal code refactoring and optimization.
+<!-- -------------------------------------------------- -->
+- Continuous code quality improvements and cleanup.
+<!-- -------------------------------------------------- -->
+- Improved visual feedback and CLI formatting.
 <!-- -------------------------------------------------- -->
 
 
