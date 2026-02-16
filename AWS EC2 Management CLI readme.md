@@ -3,7 +3,7 @@ This repository documents a production-inspired, interactive command-line
 <!-- -------------------------------------------------- -->
 tool built with **boto3**. It allows users to manage AWS EC2 instances using named profiles and dynamic region selection. The goal is to create a tool that prioritizes clarity, predictability, and safe infrastructure operations over simple abstraction.
 <!-- -------------------------------------------------- -->
-![CLI Diagram](ec2-cli/cli-diagram.png)
+![CLI Diagram](ec2_cli_images/cli-diagram.png)
 <!-- -------------------------------------------------- -->
 ![Main Interface](ec2-cli/main-interface.jpg)
 <!-- -------------------------------------------------- -->
@@ -194,4 +194,5 @@ Structured error handling and retries.
 <!-- -------------------------------------------------- -->
 Support for additional AWS services.
 <!-- -------------------------------------------------- -->
+
 
